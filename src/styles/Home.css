@@ -1,0 +1,88 @@
+/* Center alignment for elements */
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+/* Styles for blue buttons */
+a.tbl-biru {
+  background: #3f72af; /* Blue background */
+  border-radius: 20px; /* Rounded corners */
+  margin-top: 20px; /* Space above the button */
+  padding: 15px 20px; /* Padding inside the button */
+  color: #ffffff; /* White text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-weight: bold; /* Bold text */
+}
+
+a.tbl-biru:hover {
+  background: #fc5185; /* Change background on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+/* Styles for pink buttons */
+a.tbl-pink {
+  background: #fc5185; /* Pink background */
+  border-radius: 20px; /* Rounded corners */
+  margin-top: 20px; /* Space above the button */
+  padding: 15px 20px; /* Padding inside the button */
+  color: #ffffff; /* White text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-weight: bold; /* Bold text */
+}
+
+a.tbl-pink:hover {
+  background: #3f72af; /* Change background on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+/* General section styles */
+section {
+  margin: auto; /* Center the section */
+  display: flex; /* Flexbox layout */
+  margin-bottom: 50px; /* Space below the section */
+}
+
+/* Paragraph styles */
+p {
+  margin: 10px 0; /* Vertical margin */
+  padding: 10px 0; /* Vertical padding */
+}
+
+/* Column styles */
+.kolom {
+  margin-top: 50px; /* Space above the column */
+  margin-bottom: 50px; /* Space below the column */
+}
+
+/* Description styles */
+.kolom .deskripsi {
+  font-size: 20px; /* Font size */
+  font-weight: bold; /* Bold text */
+  font-family: "Comic Sans MS"; /* Font family */
+  color: #364f6b; /* Text color */
+}
+
+/* Heading styles */
+h2 {
+  font-family: "Comic Sans MS"; /* Font family */
+  font-weight: 800; /* Bold text */
+  font-size: 45px; /* Font size */
+  margin-bottom: 20px; /* Space below the heading */
+  color: #364f6b; /* Text color */
+  width: 100%; /* Full width */
+  line-height: 50px; /* Line height */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 991.98px) {
+  section {
+      display: block; /* Stack sections vertically */
+  }
+
+  section img {
+      display: block; /* Display images as block */
+      width: 100%; /* Full width */
+      height: auto; /* Maintain aspect ratio */
+  }
+}
