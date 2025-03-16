@@ -94,7 +94,8 @@ nav > .wrapper > button > svg {
     }
     .menu.tampil > ul {
         display: flex; /* Tampilkan menu saat kelas 'tampil' ditambahkan */
-    }
+       
+      }
     .menu {
         text-align: right; /* Posisikan teks ke kanan */
     }
@@ -117,10 +118,11 @@ nav > .wrapper > button > svg {
     }
     .menu > ul > li > a {
         display: inline-block; /* Tampilkan sebagai blok inline */
-        padding: 15px 20px 15px 50px; /* Padding untuk item menu */
+        padding: 15px 0px 10px 0px; /* Padding untuk item menu */
         width: 100%; /* Lebar penuh untuk tautan */
         color: white; /* Warna teks */
         text-decoration: none; /* Hapus garis bawah */
+        text-align: center;
     }
     .menu > ul > li > a:hover {
         background-color: rgba(78, 79, 80, 0.8); /* Warna latar belakang saat hover */
