@@ -64,7 +64,7 @@ nav > .wrapper {
 
 .menu > ul > li > a:hover {
   background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
-  color: #ffcc00; /* Change text color on hover */
+  color: rgba(182, 184, 185, 0.8); /* Change text color on hover */
   border-radius: 5px; /* Rounded corners on hover */
 }
 
@@ -103,7 +103,7 @@ nav > .wrapper > button > svg {
     }
     .menu > ul {
         flex-direction: column; /* Menu dalam kolom */
-        background-color: rgba(34, 111, 189, 0.8); /* Warna biru dengan transparansi */
+        background-color: rgba(78, 79, 80, 0.8); /* Warna biru dengan transparansi */
         backdrop-filter: blur(10px); /* Efek buram */
         width: 100%; /* Lebar penuh */
         position: fixed; /* Posisi tetap */
@@ -123,7 +123,7 @@ nav > .wrapper > button > svg {
         text-decoration: none; /* Hapus garis bawah */
     }
     .menu > ul > li > a:hover {
-        background-color: rgba(34, 111, 189, 0.6); /* Warna latar belakang saat hover */
+        background-color: rgba(78, 79, 80, 0.8); /* Warna latar belakang saat hover */
     }
 
     .logo > a {

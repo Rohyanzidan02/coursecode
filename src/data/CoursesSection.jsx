@@ -6,8 +6,10 @@ export const coursesSection = {
     content:  `
         <p class="deskripsi"></p>
         <h2>Web developer</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed deserunt voluptatibus possimus blanditiis reiciendis. Qui, facilis! Delectus exercitationem dolores sapiente?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed deserunt voluptatibus possimus blanditiis reiciendis. Qui, facilis! Delectus exercitationem dolores sapiente?</p>
+        <p>Dalam course  ini akan ada matari dan praktek yang menjelaskan tentang pembuatan frontend dan backend dari nol dalam pembuatan web
+            terdapat vidio materi, code dan beberapa soal 
+        </p>
+        <p>Mteri ajar : Frontend, Backend</p>
         <p><a href="#" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
     `,
     image: codingImage // Menggunakan gambar yang diimpor

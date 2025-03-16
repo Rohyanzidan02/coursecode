@@ -31,7 +31,7 @@ function Navbar() {
     <nav>
         <div className="wrapper">
             <div className="logo">
-                <HashLink to = "/"><img src= {icon} /></HashLink>
+                <HashLink to = "#home"><img src= {icon} /></HashLink>
             </div>
             <button onClick={tampilMenu}>
     {/* bergantian icon nav */}
@@ -43,10 +43,9 @@ function Navbar() {
             </button>
         <div className={ `menu ${statusTampil}`} onClick={tampilMenu}>
                 <ul>
-                    <li><HashLink to="">Course</HashLink></li>
-                    <li>< HashLink to="">about </HashLink></li>
-                    <li><Link to="">free</Link></li>
-                    <li><Link to=""></Link></li>
+                    <li><HashLink to="#course">Course</HashLink></li>
+                    <li>< HashLink to="#tutors">Pemateri </HashLink></li>
+                    <li>< HashLink to="#partners">partners </HashLink></li>
                 </ul>
             </div>
         </div>

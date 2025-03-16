@@ -6,6 +6,8 @@ import { partnersSection, partnersList } from '../data/PartnersSction';
 import { contactSection } from '../data/ContactSection';
 import parse from 'html-react-parser'
 
+import Cute from '../asset/cute.gif'
+
 // component
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -29,14 +31,18 @@ function Home() {
         </section>
 
         {/* online course */}
-        <h2>Online Course </h2>
-        <section id="courses">
-          <div className="kolom">
-          <p className="deskripsi">#course code with RP</p>
-            {parse (coursesSection.content)} {/* Assuming this is also JSX */}
-          </div>
-            <img src={coursesSection.image} alt="Courses" />
-        </section>
+        <div id="course">
+    <div class="header-container">
+        <h1>Online <br />Course</h1>
+        <img src={Cute} alt="Cute" class="cute-image" />
+    </div>
+    <section id="courses">
+        <div className="kolom">
+            {parse(coursesSection.content)} {/* Assuming this is also JSX */}
+        </div>
+        <img src={coursesSection.image} alt="Courses" />
+    </section>
+</div>
         {/* online course 2 */}
         <Desain />
 
