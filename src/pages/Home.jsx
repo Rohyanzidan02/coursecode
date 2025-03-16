@@ -15,6 +15,8 @@ import Mentor from '../components/Mentor';
 import Partners from '../components/Partners';
 import Contact from '../components/Contact';
 import Desain from '../components/Desain';
+import Partner from '../components/Partner';
+import ScrollToTop from '../components/ScrollToTop';
 
 function Home() {
   return (
@@ -57,19 +59,12 @@ function Home() {
         </section>
 
         {/* partners */}
-        <section id="partners">
-          <div className="tengah">
-            <div className="kolom">
-              {parse (partnersSection.content)} {/* Assuming this is also JSX */}
-            </div>
-            <Partners partnersList={partnersList} />
-          </div>
-        </section>
-
-        <Contact contactSection={contactSection} />
+        < Partner/>
+        {/* <Contact contactSection={contactSection} /> */}
       </div>
-
+      <Contact />
       <Footer />
+      <ScrollToTop />
     </>
   );
 }

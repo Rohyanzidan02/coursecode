@@ -1,16 +1,65 @@
+#partners {
+  overflow: hidden; /* Hide overflow to prevent scrollbars */
+  position: relative; /* Position relative for absolute positioning of inner elements */
+}
+
+.tengah {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .partner-list {
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
+  width: 100%; /* Full width for the partner list */
+  position: relative; /* Position relative for absolute positioning of inner elements */
+}
+
+.scroll-container {
+  display: flex; /* Use flexbox for horizontal layout */
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+.kartu-partner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Ensure no hover effects are applied */
+}
+
+/* Default image size and spacing */
+.kartu-partner img {
+  width: 100px; /* Set a smaller fixed width for images */
+  height: 100px; /* Set a smaller fixed height for images */
+  object-fit: cover; /* Maintain aspect ratio and cover the area */
+  border-radius: 10px; /* Optional: rounded corners */
+  transition: none; /* Disable any transition effects */
+}
+
+/* Spacing for larger screens */
+.kartu-partner {
+  margin: 0 30px; /* Space between cards on larger screens */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 576px) {
+  .kartu-partner img {
+    width: 50px; /* Smaller width for very small screens */
+    height: 50px; /* Maintain height */
   }
   
   .kartu-partner {
-    width: 20%;
-    margin: 0 auto;
+    margin: 0 10px; /* Reduced space between cards on small screens */
   }
-  
-  .kartu-partner img {
-    width: 150px;
-    border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  .kartu-partner {
+    margin: 0 40px; /* Increased space between cards on medium screens */
   }
+}
+
+@media (min-width: 992px) {
+  .kartu-partner {
+    margin: 0 50px; /* Further increased space between cards on large screens */
+  }
+}

@@ -1,14 +1,37 @@
 import '../styles/Footer.css'
+// icon
+import { GiCampCookingPot } from "react-icons/gi";
+import { CgGym } from "react-icons/cg";
+import { FaBook } from "react-icons/fa";
+import { MdLocalMovies } from "react-icons/md";
+
 
 function Footer() {
   return (
-            <div id="copyright">
-        <div className="wrapper">
-            &copy; 2025. 
-            {/* <b>RumahRafif.</b> All Rights Reserved. */}
+    <footer>
+        
+        <div>
+          <h1>ADDRES</h1>
+          <p>Pademangan, Barat, Jakarta Utara
+            <br />
+            <br />indonesia </p>
+          
         </div>
+
+        <div>
+          <h1>CONTACT</h1>
+          <p>Email : rohyanzidan02@gmail.com</p>
+          <p>Phone : +6282110173830</p>
         </div>
+
+        <div id='copy'>
+        <p>&copy;Muhammad Rohyan Zidan 2025</p> 
+        </div>
+    </footer>
   )
 }
 
 export default Footer
+
+            
+            

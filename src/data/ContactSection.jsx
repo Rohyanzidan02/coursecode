@@ -12,8 +12,4 @@ export const contactSection = [
                     <p>Jl. Laksda Adisucipto Sleman Yogyakarta</p>
                     <p>Kode Pos: 57365</p>`
     },
-    {
-        content: `<h3>Social</h3>
-                    <p><b>YouTube: </b>Programming di RumahRafif</p>`
-    },
 ]

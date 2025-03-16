@@ -1,24 +1,63 @@
 .tutor-list {
-    width: 100%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-  }
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Pusatkan kartu tutor */
+  padding: 0px; /* Tambahkan padding di sekitar daftar */
   
+}
+
+.kartu-tutor {
+  width: 25%; /* Tetap 25% untuk 4 kolom */
+  margin: 0px; /* Jarak antar kartu */
+
+  border-radius: 10px; /* Sudut membulat */
+  /* Bayangan untuk efek kedalaman */
+  text-align: center; /* Pusatkan teks di dalam kartu */
+  transition: transform 0.3s, box-shadow 0.3s; /* Transisi untuk efek hover */
+}
+
+.kartu-tutor:hover {
+  transform: translateY(-5px); /* Efek mengangkat saat hover */
+  /* Bayangan lebih dalam saat hover */
+}
+
+.kartu-tutor img {
+  width: 80%; /* Atur lebar gambar sesuai kebutuhan */
+  border-radius: 50%; /* Membuat gambar bulat */
+  margin-top: 15px; /* Jarak atas untuk gambar */
+}
+
+.kartu-tutor p {
+  font-family: "Comic Sans MS", cursive, sans-serif; /* Jenis font */
+  font-weight: 800; /* Ketebalan font */
+  font-size: 20px; /* Ukuran font */
+  color: #364f6b; /* Warna teks */
+  margin: 10px 0; /* Jarak atas dan bawah untuk teks */
+}
+
+/* Media Queries untuk responsivitas */
+@media (max-width: 1200px) {
   .kartu-tutor {
-    width: 20%;
-    margin: 0 auto;
+      width: 25%; /* Tetap 25% untuk 4 kolom */
   }
-  
-  .kartu-tutor img {
-    width: 80%;
-    border-radius: 50%;
+}
+
+@media (max-width: 992px) {
+  .kartu-tutor {
+      width: 25%; /* Tetap 25% untuk 4 kolom */
   }
-  
-  .kartu-tutor p {
-    font-family: "comic sans ms";
-    font-weight: 800;
-    font-size: 25px;
-    text-align: center;
-    color: #364f6b;
+}
+
+@media (max-width: 768px) {
+  .kartu-tutor {
+      width: 25%; /* Tetap 25% untuk 4 kolom */
   }
+}
+
+@media (max-width: 576px) {
+  .kartu-tutor {
+      width: 40%; /* Tetap 25% untuk 4 kolom */
+  }
+}

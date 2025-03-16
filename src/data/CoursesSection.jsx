@@ -10,7 +10,7 @@ export const coursesSection = {
             terdapat vidio materi, code dan beberapa soal 
         </p>
         <p>Mteri ajar : Frontend, Backend</p>
-        <p><a href="#" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+        <p><a href="#" class="tbl-biru">IKUTI COURSE</a></p>
     `,
     image: codingImage // Menggunakan gambar yang diimpor
 };
