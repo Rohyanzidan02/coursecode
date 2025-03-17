@@ -43,7 +43,7 @@ const Loading = () => {
       </svg>
 
       <div className="name-container">
-        <div className="logo-name">h2Course Code</div>
+        <div className="logo-name">Course Code</div>
         <h2 className='logo-name'>#Rproject</h2>
       </div>
     </div>
