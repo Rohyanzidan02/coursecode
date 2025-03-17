@@ -2,8 +2,6 @@ import '../styles/Home.css';
 import { homeSection } from '../data/HomeSection';
 import { coursesSection } from '../data/CoursesSection';
 import { tutorsSection } from '../data/TutorsSection';
-import { partnersSection, partnersList } from '../data/PartnersSction';
-import { contactSection } from '../data/ContactSection';
 import {Fade} from 'react-awesome-reveal'
 import parse from 'html-react-parser'
 
@@ -13,17 +11,18 @@ import Cute from '../asset/cute.gif'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Mentor from '../components/Mentor';
-import Partners from '../components/Partners';
 import Contact from '../components/Contact';
 import Desain from '../components/Desain';
 import Partner from '../components/Partner';
 import ScrollToTop from '../components/ScrollToTop';
+import IconNavbar from '../icon/Iconnavbar';
 
 function Home() {
   return (
     <>
+    <Navbar />
     <Fade direction='' delay={200} triggerOnce={true} cascade={true}>
-      <Navbar />
+      
       </Fade>
       
       {/* home */}
@@ -41,9 +40,9 @@ function Home() {
 
         {/* online course */}
         <div id="course">
-        <div class="header-container">
+        <div className="header-container">
         <h1>Online <br />Course</h1>
-        <img src={Cute} alt="Cute" class="cute-image" />
+        <img src={Cute} alt="Cute" className="cute-image" />
         </div>
           <section id="courses">
           <Fade direction='up' delay={200} triggerOnce={true} cascade={true}>
@@ -75,6 +74,7 @@ function Home() {
         < Partner/>
         {/* <Contact contactSection={contactSection} /> */}
       </div>
+      <IconNavbar/>
       <Contact />
       <Footer />
       <ScrollToTop />

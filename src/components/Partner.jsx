@@ -1,9 +1,10 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import {Fade} from 'react-awesome-reveal'
 // Import images
 import p1 from '../asset/partner/p1.png';
 import p2 from '../asset/partner/p2.png';
+import '../styles/partners.css'
 
 const Partner = () => {
   // Define partners as an array of image sources
