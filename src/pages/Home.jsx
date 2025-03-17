@@ -15,7 +15,7 @@ import Contact from '../components/Contact';
 import Desain from '../components/Desain';
 import Partner from '../components/Partner';
 import ScrollToTop from '../components/ScrollToTop';
-import IconNavbar from '../icon/Iconnavbar';
+import IconNavbar from '../icon/IconNavbar';
 
 function Home() {
   return (
