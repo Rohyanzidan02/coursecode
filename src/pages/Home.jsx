@@ -15,7 +15,7 @@ import Contact from '../components/Contact';
 import Desain from '../components/Desain';
 import Partner from '../components/Partner';
 import ScrollToTop from '../components/ScrollToTop';
-// import IconNavbar from '../icon/IconNavbar';
+import IconNavbar from '../icon/Icon';
 
 function Home() {
   return (
@@ -74,7 +74,7 @@ function Home() {
         < Partner/>
         {/* <Contact contactSection={contactSection} /> */}
       </div>
-      {/* <IconNavbar/> */}
+      <IconNavbar/>
       <Contact />
       <Footer />
       <ScrollToTop />

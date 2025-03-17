@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { HiChevronDoubleUp } from "react-icons/hi";
-import '../styles/IconNavbar.css'
+import '../styles/Icon.css'
 
-function IconNavbar({ iconPosition = { right: '20px', bottom: '20px' }, menuPosition = { right: '20px', bottom: '80px' } }) {
+function Icon({ iconPosition = { right: '20px', bottom: '20px' }, menuPosition = { right: '20px', bottom: '80px' } }) {
   const [showScroll, setShowScroll] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const isMenuOpenRef = useRef(isMenuOpen);
@@ -111,4 +111,4 @@ function IconNavbar({ iconPosition = { right: '20px', bottom: '20px' }, menuPosi
   );
 }
 
-export default IconNavbar;
+export default Icon;

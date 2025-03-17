@@ -1,4 +1,4 @@
-import React from 'react'
+
 import backend from '../asset/coding.gif'
 import {Fade} from 'react-awesome-reveal'
 
