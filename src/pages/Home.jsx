@@ -22,17 +22,20 @@ import ScrollToTop from '../components/ScrollToTop';
 function Home() {
   return (
     <>
+    <Fade direction='' delay={200} triggerOnce={true} cascade={true}>
       <Navbar />
+      </Fade>
       
       {/* home */}
       
       <div className='wrapper'>
         <section id="home">
-
+        <Fade direction='' delay={200} triggerOnce={true} cascade={true}>
           <img src={homeSection.image} alt="Coding" />
           <div className="kolom">
             {homeSection.content} {/* Directly render the JSX content */}
           </div>
+          </Fade>
         </section>
        
 
@@ -41,7 +44,6 @@ function Home() {
         <div class="header-container">
         <h1>Online <br />Course</h1>
         <img src={Cute} alt="Cute" class="cute-image" />
-        
         </div>
           <section id="courses">
           <Fade direction='up' delay={200} triggerOnce={true} cascade={true}>
