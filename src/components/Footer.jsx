@@ -1,9 +1,5 @@
 import '../styles/Footer.css'
 // icon
-import { GiCampCookingPot } from "react-icons/gi";
-import { CgGym } from "react-icons/cg";
-import { FaBook } from "react-icons/fa";
-import { MdLocalMovies } from "react-icons/md";
 
 
 function Footer() {
