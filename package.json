@@ -12,6 +12,7 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "framer-motion": "^12.5.0",
+    "gsap": "^3.12.7",
     "html-react-parser": "^5.2.2",
     "react": "^19.0.0",
     "react-awesome-reveal": "^4.3.1",

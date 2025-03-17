@@ -46,6 +46,7 @@ function Navbar() {
                     <li><HashLink to="#course">Course</HashLink></li>
                     <li>< HashLink to="#tutors">Pemateri </HashLink></li>
                     <li>< HashLink to="#partners">partners </HashLink></li>
+                    <li>< HashLink to="#contact">Contact </HashLink></li>
                 </ul>
             </div>
         </div>

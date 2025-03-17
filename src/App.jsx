@@ -1,6 +1,7 @@
 import './App.css'
 // import components dari pages
 import Home from './pages/Home'
+import Loading from './pages/Loading'
 
 
 // memanggil route dom
@@ -12,7 +13,8 @@ function App() {
     <BrowserRouter>
     <Routes>
      
-      < Route path='/' element={<Home />} />
+      < Route path='/home' element={<Home />} />
+      < Route path='/' element={<Loading/>} />
 
 
     </Routes>

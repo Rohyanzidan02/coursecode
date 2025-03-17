@@ -1,0 +1,122 @@
+.container {
+    background-color: white; /* Change background to white */
+    color: #364f6b; /* Change text color to black */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: "Michroma", sans-serif;
+  }
+  
+  .loading-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #ffffff, #f0f0f0); /* White gradient background */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    color: #364f6b; /* Change text color to black */
+  }
+  
+  #svg {
+    height: 150px;
+    width: 150px;
+    stroke: #364f6b; /* Change stroke color to black */
+    fill-opacity: 0;
+    stroke-width: 4px; /* Increase stroke width for bolder icon */
+    stroke-dasharray: 4500;
+    animation: draw 8s ease;
+  }
+  
+  @keyframes draw {
+    0% {
+      stroke-dashoffset: 4500;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  .name-container {
+    height: auto; /* Allow height to adjust based on content */
+    overflow: hidden;
+    text-align: center; /* Center the text */
+  }
+  
+  .logo-name {
+    color: #364f6b; /* Change text color to black */
+    font-size: 24px; /* Increase font size for better visibility */
+    letter-spacing: 2px; /* Adjust letter spacing */
+    text-transform: uppercase;
+    margin-bottom: 10px; /* Add space below the logo name */
+    font-weight: bolder; /* Make text bolder */
+  }
+  
+ 
+  /* Optional: Add some padding to the loading page for better spacing */
+  .loading-page {
+    padding: 20px; /* Add padding around the loading page */
+  }
+  
+  /* Optional: Add a transition effect for the loading page */
+  .loading-page {
+    transition: opacity 0.5s ease; /* Smooth transition for opacity */
+  }
+  
+  /* Optional: Style for the SVG icon */
+  #svg {
+    height: 150px;
+    width: 150px;
+    stroke: #364f6b; /* Change stroke color to black */
+    fill-opacity: 0;
+    stroke-width: 4px; /* Increase stroke width for bolder icon */
+    stroke-dasharray: 4500;
+    animation: draw 8s ease;
+  }
+  
+  /* Keyframes for the SVG drawing animation */
+  @keyframes draw {
+    0% {
+      stroke-dashoffset: 4500;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  /* General container styles */
+  .container {
+    background-color: white; /* Change background to white */
+    color:#364f6b; /* Change text color to black */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: "Michroma", sans-serif;
+  }
+  
+  /* Loading page styles */
+  .loading-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #ffffff, #f0f0f0); /* White gradient background */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    color: #364f6b; /* Change text color to black */
+  }
+  

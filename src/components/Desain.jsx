@@ -1,9 +1,11 @@
 import React from 'react'
 import backend from '../asset/coding.gif'
+import {Fade} from 'react-awesome-reveal'
 
 function Desain() {
   return (
     <section id="courses">
+       <Fade direction='up' delay={200} triggerOnce={true} cascade={true}>
             <div class="kolom">
                 {/* <p class="deskripsi">You Will Need This</p> */}
                 <h2>graphic designer</h2>
@@ -13,6 +15,7 @@ function Desain() {
                 <p><a href="" class="tbl-biru">IKUTI COURSE</a></p>
             </div>
             <img src={backend}/>
+            </Fade>
         </section>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import {Fade} from 'react-awesome-reveal'
 // Import images
 import p1 from '../asset/partner/p1.png';
 import p2 from '../asset/partner/p2.png';
@@ -16,8 +16,10 @@ const Partner = () => {
     <section id="partners">
       <div className="tengah">
         <div className="kolom">
+          <Fade direction='up' delay={0} triggerOnce={true} cascade={true}>
           <h2>PARTNER</h2>
           <p>Course Code bekerja sama dengan beberapa brand untuk membuat kuliatas course yang lebih baik</p>
+          </Fade>
         </div>
 
         <div className="partner-list">
