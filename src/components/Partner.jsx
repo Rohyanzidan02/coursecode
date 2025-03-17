@@ -4,7 +4,7 @@ import {Fade} from 'react-awesome-reveal'
 // Import images
 import p1 from '../asset/partner/p1.png';
 import p2 from '../asset/partner/p2.png';
-import '../styles/partners.css'
+import '../styles/Partners.css'
 
 const Partner = () => {
   // Define partners as an array of image sources
