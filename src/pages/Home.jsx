@@ -13,6 +13,8 @@ import Footer from '../components/Footer';
 import Mentor from '../components/Mentor';
 import Contact from '../components/Contact';
 import Desain from '../components/Desain';
+import Uiux from '../components/Uiux'
+import Dataanalist from '../components/Dataanalist';
 import Partner from '../components/Partner';
 import ScrollToTop from '../components/ScrollToTop';
 import IconNavbar from '../icon/Icon';
@@ -55,9 +57,15 @@ function Home() {
           
           </div>
           
-        {/* online course 2 */}
-        <Desain />
+          {/* online course 2 */}
+        <Uiux />
 
+          {/* online course 2 */}
+        <Dataanalist />
+
+        {/* online course 4 */}
+        <Desain />
+       
         {/* tutors */}
         <section id="tutors">
         <Fade direction='up' delay={200} triggerOnce={true} cascade={true}>
